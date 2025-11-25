@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Summer Davis - Basic HTML Website Homepage">
-  <meta name="keywords" content="HTML, semantic, beginner, homepage">
+  <meta name="description" content="Portfolio of Summer Davis - Web Developer">
+  <meta name="keywords" content="Portfolio, Web Development, HTML, CSS, JavaScript, Accessibility">
   <meta name="author" content="Summer Davis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage | Basic HTML Website</title>
+  <title>Summer Davis | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Basic HTML Website</h1>
+    <h1>Summer Davis</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="articles.html">Articles</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -22,14 +25,23 @@
   </header>
 
   <main>
-    <section>
-      <h2>Introduction</h2>
-      <p>This is the homepage of my simple HTML website. It demonstrates semantic structure and SEO basics.</p>
+    <section class="hero">
+      <h2>Web Developer & Designer</h2>
+      <p>Building accessible, responsive websites with a focus on advocacy and clean design.</p>
+      <a href="projects.html" class="btn">View My Projects</a>
+    </section>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I am pursuing a B.S. in Computer Technology with a minor in Web Development. 
+         My expertise includes front-end development (HTML, CSS, JavaScript, React) and 
+         accessibility compliance (WCAG 2.1 AA). I love creating digital experiences that 
+         are both functional and inclusive.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Summer Davis. All rights reserved.</p>
+    <p>&copy; 2025 Summer Davis | Portfolio Website</p>
   </footer>
 </body>
 </html>
